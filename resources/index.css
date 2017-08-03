@@ -17,12 +17,14 @@ h2 {
 
 div {
   border: 1px solid white;
-}
-
-.container {
   display: flex;
+  flex-direction: row;
 }
 
+img {
+  display: flex;
+  flex-direction: row;
+}
 
 header img {
   height: 50px;
