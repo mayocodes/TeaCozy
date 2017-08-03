@@ -4,39 +4,34 @@
   color: seashell;
   background-color: black;
   opacity: 0.9;
-
 }
 
-header {
+.img-tea img {
+  height: 200px;
+  width: 300px;
+}
 
-  height: 69px;
-  border-bottom: 1px solid seashell;
+h2 {
+  font-size: 30px;
+}
+
+div {
+  border: 1px solid white;
+}
+
+.container {
   display: flex;
-
-  align-items: center;
-  z-index: 1;
 }
+
 
 header img {
   height: 50px;
   margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 nav {
-  text-align: right;
-  flex-grow: 1;
-}
-
-nav p {
-  display: inline-block;
-}
-
-#mission {
-  background-image: url(../images/img-mission-background.jpg);
-  height: 700px;
-  width: 1200px;
-}
-
-.statement {
-
+  display: flex;
+  flex-direction: row;
 }
