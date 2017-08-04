@@ -41,10 +41,17 @@ ul li {
 .main {
   width: 1200px;
   margin: auto;
+  padding-top: 70px;
 }
 
 #mission {
-  background-image: url(../resources/images/img-mission-background.jpg);
+  background-image: url(images/img-mission-background.jpg);
   height: 700px;
   padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
 }
