@@ -21,10 +21,6 @@ div {
   flex-direction: row;
 }
 
-img {
-  display: flex;
-  flex-direction: row;
-}
 
 header img {
   height: 50px;
@@ -36,4 +32,9 @@ header img {
 nav {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+}
+
+div .content {
+  background-image: url(../resources/images/img-mission-background.jpg);
 }
