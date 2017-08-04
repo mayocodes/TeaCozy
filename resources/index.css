@@ -37,4 +37,5 @@ nav {
 
 div .content {
   background-image: url(../resources/images/img-mission-background.jpg);
+  height: 700px;
 }
