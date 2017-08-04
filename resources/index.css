@@ -1,41 +1,39 @@
-* {
-  font-family: Helvetica;
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
-.img-tea img {
-  height: 200px;
-  width: 300px;
-}
-
-h2 {
-  font-size: 30px;
-}
-
-div {
-  border: 1px solid white;
+.flex-container {
   display: flex;
-  flex-direction: row;
-}
-
-
-header img {
-  height: 50px;
-  margin-left: 10px;
-  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+header {
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 1;
+  position: fixed;
 }
 
-div .content {
-  background-image: url(../resources/images/img-mission-background.jpg);
-  height: 700px;
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav ul {
+  list-style: none;
+  display: inline-block;
+  padding: 20px 10px;
 }
